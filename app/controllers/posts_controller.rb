@@ -11,6 +11,7 @@ class PostsController < ApplicationController
     @post.update(post_params)
     if @post.valid?
       @post.save
+      
     else 
       render :edit 
 
