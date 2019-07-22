@@ -15,7 +15,7 @@ class PostsController < ApplicationController
     else 
       render :edit 
 
-    #redirect_to post_path(@post)
+    
   end
 end 
 
